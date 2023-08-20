@@ -1,5 +1,4 @@
-# Parking Lot Space Analyzer
-
+# Parking Space Controller
 ## Purpose of the Program
 
 The Parking Lot Space Analyzer is a tool designed to determine the number and location of empty and occupied parking spaces within a parking lot. It achieves this by analyzing bird's-eye view images of the parking lot.
