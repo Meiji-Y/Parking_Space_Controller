@@ -29,5 +29,4 @@ Feel free to explore and modify the code according to your needs.
 
 This program is authored by Muhlis Erdem Yildiz.
 
----
-Note: Replace `link_to_your_image_here` with the actual link to the image you want to showcase as an example.
+
