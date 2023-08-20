@@ -56,12 +56,14 @@ def checkParkingSpace(imgPro):
             color = (0, 255, 0)
             thickness = 5
             spaceCounter += 1
+            text="Free"
         else:
             color = (0, 0, 255)
             thickness = 2
+            text="Full"
 
         cv2.rectangle(img, pos, (pos[0] + width, pos[1] + height), color, thickness)
-        cvzone.putTextRect(img, str(count), (x, y + height - 3), scale=1,
+        cvzone.putTextRect(img, str(text), (x, y + height - 3), scale=1,
                            thickness=2, offset=0, colorR=color)
 
     cvzone.putTextRect(img, f'Free: {spaceCounter}/{len(posList)}', (100, 50), scale=3,
